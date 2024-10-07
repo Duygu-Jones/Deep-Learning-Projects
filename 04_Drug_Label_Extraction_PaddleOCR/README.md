@@ -1,104 +1,52 @@
 <h1 align="center">
-💳Credit Score Classification (Multi-Class): <br> 📈 Optimizing Financial Decision-Making
+Drug Label Text Extraction💊 <br>  Optical Character Recognition (OCR)🔎
 </h1>
 
-<h3 align="center"> Deep Learning ANN Model </h3>
+<h3 align="center">Automated Text Extraction and Visualization with PaddleOCR 🤖</h3>
 
 
 ## Project Overview
 <p align="center">
-  <img src="https://github.com/Duygu-Jones/DL_Projects/blob/main/01_Credit_Score_Classification_ANN_Model/credit_score_png2x.png"
+  <img src="https://github.com/Duygu-Jones/Deep-Learning-Projects/blob/main/04_Drug_Label_Extraction_PaddleOCR/drug4_output.png?raw=true"
 </p>
   
-This project focuses on building a robust **Artificial Neural Network (ANN)** model to predict customer credit scores based on various attributes, including demographic, financial, and behavioural data.   
-The objective is to classify customers into three categories: **Good**, **Standard**, and **Poor** credit scores, assisting financial institutions in making informed lending decisions.
+Imagine you're at home, feeling tired after a long day, and you need to check the instructions on a medication bottle or food package. The text might be too small, the lighting could be poor, or you’re just too exhausted to focus properly. In such moments, trying to read these labels becomes frustrating and prone to mistakes.
 
-## Importance of Credit Score in Finance
-A **credit score** reflects a customer's creditworthiness, indicating how likely they are to repay debts on time.    
-Financial institutions use credit scores to assess risk, set interest rates, and decide loan terms.    
-Customers with **Good** credit scores are seen as low-risk and typically receive better financial terms, while those with **Poor** credit scores are considered high risk, potentially facing higher interest rates or loan rejections.   
-Categorizing customers based on their credit scores helps lenders make faster, data-driven decisions.
+This project aims to automate the extraction and clear visualization of text from drug labels using Optical Character Recognition (OCR) technology. Whether the writing is faint, the environment isn’t ideal, or you’re simply too tired, this tool provides quick access to important information, making daily tasks smoother and more stress-free. Automating this process helps healthcare professionals, patients, and individuals avoid errors and ensures crucial information is easy to read.
 
 
-## Why ANN Model for Credit Score Prediction?
-**Artificial Neural Networks** are ideal for this task due to their ability to identify patterns and relationships in complex data. Credit scoring involves multiple interconnected financial factors, and an ANN can capture these interactions to deliver accurate credit score predictions. 
+## What is OCR?
+Optical Character Recognition (OCR) is a technology that converts printed or handwritten text in images into machine-readable text. This allows easy digitization, making information searchable and accessible in digital formats.
+
+#### About PaddleOCR
+
+PaddleOCR is an open-source OCR tool developed by PaddlePaddle, offering multi-language support, lightweight architecture, and fast processing capabilities. Compared to EasyOCR, PaddleOCR provides more flexibility in handling complex layouts and low-resolution images, making it more robust for tasks like drug label text extraction. While EasyOCR is known for its simplicity and ease of use, PaddleOCR excels in efficiency and accuracy, especially when working with large datasets or requiring real-time performance. Additionally, PaddleOCR's pre-trained models are optimized for multiple languages, giving it a broader scope for multilingual applications.
 
 
-## Business Application
-- **Loan Approvals**: By predicting a customer’s credit score, the ANN model helps financial institutions assess the risk of lending to an individual.
-- **Interest Rates**: Customers with higher credit scores receive more favourable loan terms, while those with lower scores are considered higher risk.
-- **Risk Management**: Accurate credit score predictions enable banks to reduce financial risks and make better lending decisions, ultimately leading to better customer segmentation and optimized loan offerings.    
+## Significance and Applications
+Automating text extraction from drug labels speeds up the process and eliminates errors caused by difficult-to-read packaging. In healthcare, quick and accurate access to drug information can improve patient safety and care. For individuals, it simplifies reading labels in challenging situations, such as poor lighting or worn-out text. The tool can also assist in medication management, automated pharmacy inventory checks, and help those with visual impairments by making text easily accessible.
 
+
+## Project Execution Steps
+1. **Data Collection**: Drug label images were gathered from random sources on the internet.
+2. **Model Setup**: PaddleOCR was configured to detect and extract text from the images.
+3. **Automation Process**: The OCR model automatically scanned, detected, and extracted the text from each label, reducing manual effort.
+3. **Text Detection and Recognition**: The model extracted text from the labels and stored it.
+4. **Visualization**: The detected text was annotated on the images for a clear, visual representation.
+
+<p align="center">
+  <img src="https://github.com/Duygu-Jones/Deep-Learning-Projects/blob/main/04_Drug_Label_Extraction_PaddleOCR/drug5_output.png?raw=true"
+</p>
+   
 ## Conclusion
 
-This project demonstrates the vital importance of **credit scores** in financial decision-making and risk assessment. By employing an **ANN model**, we've developed a system that accurately classifies customers based on their financial behaviour. This supports critical financial operations, such as loan approvals and setting interest rates, by utilizing advanced deep-learning techniques.
+The project demonstrates how PaddleOCR can be effectively used to automate drug label text extraction. By simplifying access to essential information, this tool can positively impact healthcare and everyday life, improving safety and efficiency in reading labels.
 
-The ANN model's adept handling of imbalanced data is particularly crucial for predicting credit scores. It effectively distinguishes between different creditworthiness levels, which is essential in the financial sector. The model's high recall for potential defaulters minimizes the risks of lending to high-risk individuals, thus reducing financial losses and enhancing the reliability of credit decisions. Its strong generalization capabilities ensure that assessments are both accurate and reliable, aiding financial institutions in making informed, responsible lending decisions and boosting overall financial stability. These achievements highlight the project's impact on improving predictive accuracy and operational efficiency in financial contexts.
-
- ## 🔍 Key Steps in the Project
-
-- **Exploratory Data Analysis (EDA)**: Conducted a thorough analysis, addressing missing and unusual values while retaining outliers to preserve the data's characteristics. This involved cleaning techniques and imputation where necessary.
-- **Data Cleaning**: Removed non-predictive columns such as **ID** and **Name**, focusing on relevant data to boost the model's predictive accuracy.
-- **Preprocessing and Data Preparation**:
-  - **Encoding Categorical Features**: Converted important categorical data into numerical formats to ensure model compatibility, enhancing the dataset's readiness for predictive modelling.
-  - **Data Scaling**: Normalized significant numerical features like **Annual Income** and **Outstanding Debt** to improve model training efficiency and performance.
-- **Handling Imbalanced Classes**: Utilized both SMOTE and class weighting techniques to address the class imbalance, with SMOTE proving to be more effective in enhancing model training and validation outcomes.
-- **Model Development and Optimization**:
-  - Developed an Artificial Neural Network (ANN) that captures complex, non-linear relationships between key features such as **Outstanding Debt**, **Loan Amount**, and **Payment Behavior**, crucial for predicting **Credit Score**.
-  - Iteratively optimized the ANN architecture across eight configurations to refine its performance and ensure robustness, ultimately selecting the ANN-7 model with SMOTE for its superior efficacy.
-- **Business Application and Impact**: The developed model plays a critical role in aiding financial institutions to make informed lending decisions, set appropriate interest rates, and segment customers for targeted offers based on accurately predicted credit scores.
-- **Model Validation**: Tested the final model on a separate test dataset to confirm its effectiveness and reliability in real-world scenarios.
-
----
-
-## About the Dataset
-
-The dataset consists of customer data, including demographic information, financial history, and payment behaviour, which are important factors in determining credit scores. This data will be processed, cleaned, and engineered to extract the most important features for training the ANN model.    
-The target feature is the **Credit_Score**, which classifies customers into three categories based on their financial history:    
-1. **Good**: Low-risk customers with strong financial management.
-2. **Standard**: Average-risk customers with moderate financial reliability.
-3. **Poor**: High-risk customers who may struggle with debt repayments.
-
-- **Dataset:** Credit Score Classification Dataset
-- **Content:** Customer demographic, financial, and credit history details.
-- **Number of Rows:** 100.000
-- **Number of Columns:** 28
-
-| **No** | **INPUTS**                  | **Description**                                                                                  |
-|-------|-----------------------------|--------------------------------------------------------------------------------------------------|
-| 1     | **ID**                       | Unique identifier for each record.                                                               |
-| 2     | **Customer_ID**              | Unique identifier for each customer.                                                             |
-| 3     | **Month**                    | Month of the transaction or record.                                                              |
-| 4     | **Name**                     | Customer’s name.                                                                                 |
-| 5     | **Age**                      | The customer’s age.                                                                              |
-| 6     | **SSN**                      | Customer’s social security number.                                                               |
-| 7     | **Occupation**               | The customer’s occupation.                                                                       |
-| 8     | **Annual_Income**            | The customer’s annual income.                                                                    |
-| 9     | **Monthly_Inhand_Salary**    | The customer’s monthly in-hand salary.                                                           |
-| 10    | **Num_Bank_Accounts**        | Number of bank accounts owned by the customer.                                                   |
-| 11    | **Num_Credit_Card**          | Number of credit cards owned by the customer.                                                    |
-| 12    | **Interest_Rate**            | The interest rate applied to loans or credit.                                                    |
-| 13    | **Num_of_Loan**              | Number of loans taken by the customer.                                                           |
-| 14    | **Type_of_Loan**             | Type of loan taken by the customer.                                                              |
-| 15    | **Delay_from_due_date**      | The delay in payment from the due date.                                                          |
-| 16    | **Num_of_Delayed_Payment**   | Number of delayed payments made by the customer.                                                 |
-| 17    | **Changed_Credit_Limit**     | Changes made to the customer’s credit limit.                                                     |
-| 18    | **Num_Credit_Inquiries**     | Number of credit inquiries made.                                                                 |
-| 19    | **Credit_Mix**               | The mix of credit types the customer uses (e.g., loans, credit cards).                           |
-| 20    | **Outstanding_Debt**         | Total outstanding debt the customer has.                                                         |
-| 21    | **Credit_Utilization_Ratio** | The ratio of credit used to the total credit limit.                                               |
-| 22    | **Credit_History_Age**       | The length of the customer’s credit history.                                                     |
-| 23    | **Payment_of_Min_Amount**    | Whether the customer pays the minimum amount required each month.                                |
-| 24    | **Total_EMI_per_month**      | The total EMI (Equated Monthly Installment) the customer pays each month.                        |
-| 25    | **Amount_invested_monthly**  | The amount invested by the customer each month.                                                  |
-| 26    | **Payment_Behaviour**        | The payment behavior of the customer.                                                            |
-| 27    | **Monthly_Balance**          | The customer’s remaining balance at the end of each month.                                        |
-| 28    | **Credit_Score**             | The customer’s credit score (target variable: "Good," "Poor," "Standard").                        |
-
-    
-- > *This dataset is ideal for developing credit risk assessment models, allowing for a detailed analysis of the factors that impact an individual’s credit score.*    
-- > *Original dataset is available on Kaggle:* [Credit score classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classification/data?select=train.csv)
-    
+### References:
+- This project utilizes **[PaddleOCR GitHub Repository](https://github.com/PaddlePaddle/PaddleOCR)**, an open-source tool developed by PaddlePaddle for efficient text detection and recognition.
+- The inspiration for this project came from a demonstration video by **[Nicholas Renotte](https://www.youtube.com/watch?v=t5xwQguk9XU)**.
+- For further technical details, the methodology is based on the paper **[PP-OCR: A Practical Ultra Lightweight OCR System](https://arxiv.org/pdf/2009.09941v3)**.
+  
 ---    
 
 ## ⬇️Installation
@@ -106,8 +54,8 @@ The target feature is the **Credit_Score**, which classifies customers into thre
 *To view the notebook online, visit my **Kaggle** profile.*
 *If you find this work helpful, don't forget to give it an 👍 UPVOTE! and join the discussion!*
 
- - Kaggle Notebook: [Credit Score Classification EDA + ANN Model💳💹](https://www.kaggle.com/code/duygujones/credit-score-classification-eda-ann-model)
- - The dataset is available to download on the Kaggle: [Credit score classification]([https://www.kaggle.com/competitions/titanic](https://www.kaggle.com/datasets/parisrohan/credit-score-classification))
+ - Kaggle Notebook: [Drug Label Text Extraction with PaddleOCR 🔎💊](https://www.kaggle.com/code/duygujones/drug-label-text-extraction-with-paddleocr)
+
 
 ## 🤝Contributing
 
