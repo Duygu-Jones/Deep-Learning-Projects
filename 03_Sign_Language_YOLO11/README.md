@@ -2,14 +2,15 @@
 🖐️ Sign Language Detection with YOLOv11 🤟
 </h1>
 
-<h3 align="center"> Computer Vision Project with YOLOv11 Model </h3>
+<h3 align="center"> 🟣Computer Vision Project with YOLOv11 Model🟣 </h3>
+
+---
+
+| 📽️ **YOLOv11 ASL Detection - Output Video Link**     | 
+|------------------------------------------------------|
+| [![Watch the video](https://github.com/Duygu-Jones/Deep-Learning-Projects/blob/main/03_Sign_Language_YOLO11/ASL_output_img.png?raw=true)](https://youtu.be/GfvfUCwjrSA?si=Pg0buaqQGxHnqyxC)  
 
 ## Project Overview
-
-| 📷 Video                                            | 
-|------------------------------------------------------|
-| ![Input Image](https://github.com/Duygu-Jones/Deep-Learning-Projects/blob/main/03_Sign_Language_YOLO11/asl_img.png?raw=true) | [
-
 
 In this project, **Ultralytics YOLOv11** model has been to detect and classify American Sign Language (ASL) gestures in real-time. This model efficiently recognizes different hand gestures, providing a promising step towards building accessible communication tools for the deaf community.
 
