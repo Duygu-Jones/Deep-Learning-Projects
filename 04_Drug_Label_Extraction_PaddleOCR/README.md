@@ -5,11 +5,11 @@ Drug Label Text Extraction💊 <br>  Optical Character Recognition (OCR)🔎
 <h3 align="center">Automated Text Extraction and Visualization with PaddleOCR 🤖</h3>
 
 
-## Project Overview
 <p align="center">
   <img src="https://github.com/Duygu-Jones/Deep-Learning-Projects/blob/main/04_Drug_Label_Extraction_PaddleOCR/drug4_output.png?raw=true"
 </p>
-  
+
+## Project Insight 
 Imagine you're at home, feeling tired after a long day, and you need to check the instructions on a medication bottle or food package. The text might be too small, the lighting could be poor, or you’re just too exhausted to focus properly. In such moments, trying to read these labels becomes frustrating and prone to mistakes.
 
 This project aims to automate the extraction and clear visualization of text from drug labels using Optical Character Recognition (OCR) technology. Whether the writing is faint, the environment isn’t ideal, or you’re simply too tired, this tool provides quick access to important information, making daily tasks smoother and more stress-free. Automating this process helps healthcare professionals, patients, and individuals avoid errors and ensures crucial information is easy to read.

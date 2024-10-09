@@ -1,25 +1,25 @@
 <h1 align="center">
-🖐️ Sign Language Detection with YOLOv11 🤟
+🖐️ Sign Language Detection with YOLO11 🤟
 </h1>
 
-<h3 align="center"> 🟣Computer Vision Project with YOLOv11 Model🟣 </h3>
+<h3 align="center"> 🟣Computer Vision Project with YOLO11 Model🟣 </h3>
 
 ---
 
-| 📽️ **YOLOv11 ASL Detection - Output Video Link**     | 
+| 📽️ **YOLO11 ASL Detection - Output Video Link**     | 
 |------------------------------------------------------|
 | [![Watch the video](https://github.com/Duygu-Jones/Deep-Learning-Projects/blob/main/03_Sign_Language_YOLO11/ASL_output_img.png?raw=true)](https://youtu.be/GfvfUCwjrSA?si=Pg0buaqQGxHnqyxC)  
 
 ## Project Overview
 
-In this project, **Ultralytics YOLOv11** model has been to detect and classify American Sign Language (ASL) gestures in real-time. This model efficiently recognizes different hand gestures, providing a promising step towards building accessible communication tools for the deaf community.
+This project uses the **Ultralytics YOLO11** model to detect and classify American Sign Language (ASL) gestures in real time. This model efficiently recognizes different hand gestures, providing a promising step towards building accessible communication tools for the deaf community.
 
 ## About YOLOv11
 YOLOv11 builds upon the advancements made in previous versions (YOLOv9, YOLOv10), featuring improved architecture, better feature extraction, and optimized training techniques. The model can handle multiple tasks across different domains and is highly scalable, from mobile CPUs to powerful GPUs.
 
-YOLOv11 is available in 5 different sizes, ranging from **2.6M to 56.9M parameters**, and achieves mAP scores between **39.5 and 54.7** on the **COCO dataset**, which was used for initial pre-training.
+YOLO11 is available in 5 different sizes, ranging from **2.6M to 56.9M parameters**, and achieves mAP scores between **39.5 and 54.7** on the **COCO dataset**, which was used for initial pre-training.
 
-💡 For more details, check out the [Ultralytics YOLOv11 GitHub Repository](https://github.com/ultralytics/ultralytics).
+💡 For more details, check out the [Ultralytics YOLO11 GitHub Repository](https://github.com/ultralytics/ultralytics).
 
 For this project, the **small version** of YOLOv11 was used for **object detection** to efficiently detect hand signs in real-time.
 
@@ -79,7 +79,7 @@ If you'd like to contribute or discuss improvements, don't hesitate to connect!
 *To view the notebook and training results, visit my **Kaggle** profile.*  
 *If you find this work helpful, don't forget to give it an 👍 UPVOTE! and join the discussion!*
 
- - Kaggle Notebook: [Sign Language Detection using YOLOv11 🤟](https://www.kaggle.com/code/duygujones/sign-language-detection-using-yolo11)
+ - Kaggle Notebook: [Sign Language Detection using YOLO11 🤟](https://www.kaggle.com/code/duygujones/sign-language-detection-using-yolo11)
  
 ## 🤝Contributing
 
