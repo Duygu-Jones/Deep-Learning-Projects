@@ -6,7 +6,7 @@
 </h1>
 
 <h3 align="center">
-🌍 Explore Hands-On Deep Learning Projects and Practical Insights! 🔥
+🌍 Explore Hands-On Deep Learning Projects and Practical Insights!🔥
 </h3>
 
 Welcome to the Deep Learning repository! 🎉
